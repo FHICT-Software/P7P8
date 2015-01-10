@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.7" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jTabbedPane1" alignment="1" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jTabbedPane1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JTabbedPane" name="jTabbedPane1">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel1">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Video Logs">
+                <Property name="tabTitle" type="java.lang.String" value="Video Logs"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jScrollPane4" alignment="0" pref="596" max="32767" attributes="0"/>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              <Component id="jToggleButton2" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane4" pref="330" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jToggleButton2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane4">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JList" name="jList2">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+                      <StringArray count="5">
+                        <StringItem index="0" value="2014-10-12 20:50 - M. Cauthon"/>
+                        <StringItem index="1" value="2014-10-12 20:50 - E. Powell"/>
+                        <StringItem index="2" value="2014-10-12 20:50 - D. Ritchie"/>
+                        <StringItem index="3" value="2014-10-12 20:50 - J. F. Nash"/>
+                        <StringItem index="4" value="2014-10-12 20:50 - N. Algren"/>
+                      </StringArray>
+                    </Property>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JToggleButton" name="jToggleButton2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Play"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Audio Logs">
+                <Property name="tabTitle" type="java.lang.String" value="Audio Logs"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace pref="553" max="32767" attributes="0"/>
+                      <Component id="jToggleButton1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="jScrollPane3" alignment="0" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jScrollPane3" pref="341" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jToggleButton1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JList" name="jList1">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+                      <StringArray count="8">
+                        <StringItem index="0" value="2014-10-12 20:52:40 - J. F. Nash"/>
+                        <StringItem index="1" value="2014-10-12 20:52:44 - E. Powell"/>
+                        <StringItem index="2" value="2014-10-12 20:53:04 - D. Ritchie"/>
+                        <StringItem index="3" value="2014-10-12 20:53:22 - J. F. Nash"/>
+                        <StringItem index="4" value="2014-10-12 20:53:55 - D. Ritchie"/>
+                        <StringItem index="5" value="2014-10-12 20:58:04 - J. F. Nash"/>
+                        <StringItem index="6" value="2014-10-12 20:58:12 - J. F. Nash"/>
+                        <StringItem index="7" value="2014-10-12 20:59:35 - J. F. Nash"/>
+                      </StringArray>
+                    </Property>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JToggleButton" name="jToggleButton1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Play"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel3">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Report">
+                <Property name="tabTitle" type="java.lang.String" value="Report"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane2" pref="616" max="32767" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jScrollPane2" pref="341" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jButton2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea1">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="lineWrap" type="boolean" value="true"/>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" value="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut viverra facilisis eros, a pellentesque velit mollis quis. Praesent diam nulla, mollis sit amet eros et, molestie maximus ante. Etiam magna eros, finibus ac vulputate a, dictum non elit. Morbi finibus placerat turpis a sagittis. In quis ultricies velit. Duis sit amet neque orci. Proin sit amet massa libero. Sed ultrices nibh mauris, quis accumsan orci vehicula vitae. Quisque iaculis lobortis erat eu tempus. Proin scelerisque commodo urna, ac facilisis justo cursus id. Donec condimentum ac nisi vel dapibus. Phasellus non tincidunt purus. Etiam in orci dui. Quisque nec lacinia sapien. Fusce ac ipsum non mauris pellentesque faucibus.&#xa;&#xa;Fusce porta arcu nec leo cursus mattis. Morbi diam nisl, consectetur faucibus felis quis, rutrum bibendum arcu. In sapien enim, suscipit ac sem eu, pretium condimentum neque. Vestibulum vestibulum suscipit felis, non malesuada libero. Aliquam ante enim, condimentum et dictum in, ultrices et dui. Sed semper fringilla purus sit amet condimentum. Proin interdum diam nec nisl malesuada, a porttitor augue dignissim. Maecenas tempor metus erat, sed tempus ex convallis in. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras facilisis erat ac tellus eleifend condimentum et in enim. Cras nunc felis, facilisis sit amet tempor eget, consectetur non ipsum. Praesent fringilla massa placerat est congue blandit. Pellentesque dapibus malesuada ante, a luctus ante laoreet eu. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent ultrices vitae augue eu ultrices. Proin mollis consequat risus, hendrerit rhoncus libero laoreet sed.&#xa;&#xa;In id maximus ipsum. Praesent magna augue, commodo non arcu non, fringilla laoreet felis. Aliquam congue viverra vestibulum. Nulla vel rhoncus ipsum. Cras eget ex ultricies, scelerisque elit non, posuere felis. Nulla eros nunc, consequat a leo vel, vestibulum volutpat sem. Aenean rhoncus accumsan cursus. Donec congue sollicitudin mollis. Suspendisse pellentesque dolor et mi auctor, sed rhoncus massa laoreet. Cras laoreet dui eget placerat posuere. Mauris tellus ante, fermentum feugiat auctor sit amet, vulputate nec nisl. Phasellus odio felis, rhoncus at nunc eget, hendrerit auctor nisi. Curabitur magna nunc, lacinia sed vehicula ac, sollicitudin ac augue. Suspendisse id enim ut urna rutrum interdum eget eget sapien.&#xa;&#xa;Sed rutrum semper diam, at auctor erat vestibulum nec. Curabitur eu mauris sit amet magna accumsan tristique. Proin quis maximus felis. Aliquam erat volutpat. Etiam a velit erat. Suspendisse vitae tortor sit amet mi tempor mattis rhoncus ut diam. Duis velit leo, fringilla at metus quis, eleifend venenatis lorem. Aliquam cursus mauris tortor, a elementum metus condimentum ultrices. Mauris dictum ipsum eget ligula pellentesque bibendum. Nulla eleifend dui quis velit efficitur, quis pretium eros efficitur. Duis rutrum imperdiet ipsum, in pellentesque sem maximus id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget dolor arcu. Cras congue orci in risus efficitur pulvinar. Aenean semper tincidunt est, sed ultrices lorem ultricies eget.&#xa;&#xa;Integer commodo est nibh, nec posuere arcu feugiat vitae. Sed sollicitudin condimentum libero vel lobortis. Vivamus lobortis erat ante, non luctus diam tempus id. Nulla a lacinia nulla, eu accumsan elit. Donec vel congue dolor, aliquet ornare ante. Sed molestie tortor a est lacinia posuere. Praesent eu lorem pharetra, gravida erat sed, varius nunc. Pellentesque suscipit ipsum ac turpis varius, at hendrerit sapien ultrices. Aenean luctus vel nibh sit amet sagittis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin interdum blandit tortor, sed vestibulum lectus. Fusce vitae nisl vel lacus pharetra iaculis vitae quis nibh."/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JButton" name="jButton1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Print"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Save"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
